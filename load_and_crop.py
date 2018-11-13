@@ -87,7 +87,7 @@ data_cropped=[]
 for dat in data:
     load_and_preprocess(dat[0],dat[3],dat[4],dat[5],dat[6],tamx,tamy,cropped_route)
     c+=1
-    cropped=['cropped/'+dat[0],dat[7]]
+    #cropped=['cropped/'+dat[0],dat[7]]
     #sp=dat[0].split('/')
     #cropped=[ sp[len(sp)-1],dat[7]]
     #data_cropped.append(cropped)
